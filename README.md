@@ -1,6 +1,32 @@
-# 🤖 Reinforcement Learning Classroom Simulation
+# 🤖 Reinforcement Learning Lab & Simulations
 
-A clean, interactive, and beginner-friendly **Reinforcement Learning (Q-Learning)** demonstration designed for educators, students, and beginners.
+An interactive, beginner-to-advanced suite of **Reinforcement Learning** demonstrations designed for students, educators, and curious developers.
+
+---
+
+## 🏃 NEW: AI 100m Dash (Continuous Deep RL Humanoid Locomotion)
+
+Inspired by AI Warehouse's viral YouTube demonstration [*AI vs. AI in 100m Dash (deep reinforcement learning)*](https://youtu.be/pJPdW8WWAso).
+
+- **Interactive Web Simulation (`humanoid_dash_simulation.html`)**:
+  - Run at 60 FPS in any browser with zero installations.
+  - **4-Stage AI Championship**: Watch **Gen 0 (Flailer)**, **Gen 12 (Hopper)**, **Gen 45 (Galloper)**, and **Gen 120 (Olympic Sprinter)** race side-by-side to the 100m finish line.
+  - **Live Evolution Lab**: Train populations of 12 agents live, adjust reward weights ($w_v, w_u, w_e$), and inspect neural policy activation in real time.
+- **Desktop Python GUI (`humanoid_rl_demo.py`)**:
+  - Native Tkinter + Numpy ragdoll simulation with camera tracking, physics collision impulses, and speed controls.
+- **Compute & Architecture Guide (`HUMANOID_RUNNER_GUIDE.md`)**:
+  - In-depth analysis of hardware compute requirements (CPU vs GPU vs Isaac Gym), reward engineering, and PPO continuous control.
+
+Quick Launch:
+```bash
+python run_humanoid_demo.py
+```
+
+---
+
+## 🗺️ Classical Reinforcement Learning: GridWorld Q-Learning
+
+A clean, interactive, and beginner-friendly **Discrete Q-Learning** demonstration.
 
 Built with Python, native Tkinter (zero heavy C-dependencies), and Matplotlib.
 
